@@ -1,0 +1,1 @@
+UPDATE [AutoTrader].[dbo].[Backtesting_Results_Manipulated] SET time = NULLIF(column_name, 'NULL') WHERE time = 'NULL';
