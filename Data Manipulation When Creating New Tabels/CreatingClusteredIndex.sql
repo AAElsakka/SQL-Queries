@@ -1,0 +1,1 @@
+CREATE CLUSTERED INDEX TradeTypeIndex ON [dbo].[Backtesting_Results_Manipulated] ([type]);
